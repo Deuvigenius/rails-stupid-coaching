@@ -1,0 +1,9 @@
+<h1 class="ms-3 mt-3">Stupid Coaching</h1>
+
+<p class="ms-3">Ask your coach anything</p>
+<div class="container w-50 ms-3">
+<form class="input-group mb-3" action="/answer"  method="get" data-turbo="false">
+  <input class="form-control" type="text" name="question" value=<%= params[:question] %>>
+  <input class="btn btn-primary" type="submit" value="Ask!">
+</form>
+</div>
